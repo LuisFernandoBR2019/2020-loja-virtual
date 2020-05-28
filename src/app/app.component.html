@@ -1,1 +1,410 @@
-<h5>Tomatoni que tá no preguinho</h5>
+<!-- Navbar-->
+<header class="navbar navbar-sticky navbar-dark bg-dark">
+    <!-- Search-->
+    <form class="site-search" method="get">
+      <input type="text" name="site_search" placeholder="Digite para buscar...">
+
+      <div class="search-tools">
+        <span class="clear-search">Limpar</span>
+
+        <span class="close-search">
+          <i class="icon-cross"></i>
+        </span>
+      </div>
+    </form>
+
+    <div class="site-branding">
+      <div class="inner">
+
+        <!-- Site Logo-->
+        <a class="site-logo light-logo" href="http://localhost:4200/index.html">
+          <img src="./assets/images/png/logo-light.png">
+        </a>
+
+        <a class="site-logo logo-stuck" href="http://localhost:4200/index.html">
+          <img src="./assets/images/png/logo.png">
+        </a>
+      </div>
+    </div>
+
+    <!-- Main Navigation-->
+    <nav class="site-menu">
+      <ul>
+        <li class="has-megamenu active">
+          <a href="http://localhost:4200/index.html">
+            <span>Home</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="http://localhost:4200/shop-grid-ls.html">
+            <span>Produtos</span>
+          </a>
+
+          <ul class="sub-menu">
+            <li>
+              <a href="http://localhost:4200/shop-categories.html">Lista de produtos</a>
+            </li>
+            <li class="has-children">
+              <a href="http://localhost:4200/shop-grid-ls.html">
+                <span>Categoria</span>
+              </a>
+              <ul class="sub-menu">
+                <li>
+                  <a href="http://localhost:4200/shop-grid-ls.html">Sapatos e tênis</a>
+                </li>
+                <li>
+                  <a href="http://localhost:4200/shop-grid-rs.html">Óculos</a>
+                </li>
+                <li>
+                  <a href="http://localhost:4200/shop-grid-ns.html">Mochilas</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+
+          <a href="http://localhost:4200/account-orders.html">
+            <span>Sobre</span>
+          </a>
+        </li>
+
+      </ul>
+    </nav>
+
+    <!-- Toolbar-->
+    <div class="toolbar">
+      <div class="inner">
+        <div class="tools">
+
+          <div class="search">
+            <i class="icon-search"></i>
+          </div>
+
+          <div class="account">
+            <a href="http://localhost:4200/account-orders.html"></a>
+            <i class="icon-head"></i>
+            <ul class="toolbar-dropdown">
+
+              <li class="sub-menu-user">
+
+                <div class="user-ava">
+                  <img src="./assets/images/jpg/user-01-sm.jpg" alt="Daniel Adams">
+                </div>
+
+                <div class="user-info">
+                  <h6 class="user-name">Tiburssinho</h6>
+                  <!-- <span class="text-xs text-muted">xxx pontos acumulados</span> -->
+                </div>
+              </li>
+
+              <li>
+                <a href="http://localhost:4200/account-profile.html">Perfil</a>
+              </li>
+
+              <li>
+                <a href="http://localhost:4200/account-orders.html">Pedidos</a>
+              </li>
+
+              <li>
+                <a href="http://localhost:4200/account-wishlist.html">Lista de desejos</a>
+              </li>
+
+              <li class="sub-menu-separator"></li>
+
+              <li>
+                <a href="http://localhost:4200/home-dark-header.html#">
+                  <i class="icon-unlock"></i>
+                  Sair
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="cart">
+            <a href="http://localhost:4200/cart.html"></a>
+            <i class="icon-bag"></i>
+            <span class="count">3</span>
+            <span class="subtotal">R$289.68</span>
+            <div class="toolbar-dropdown">
+
+              <div class="dropdown-product-item">
+                <span class="dropdown-product-remove">
+                  <i class="icon-cross"></i>
+                </span>
+
+                <a class="dropdown-product-thumb" href="http://localhost:4200/shop-single.html">
+                  <img src="./assets/images/jpg/shoes-01-md.jpg" alt="Product">
+                </a>
+
+                <div class="dropdown-product-info">
+                  <a class="dropdown-product-title" href="http://localhost:4200/shop-single.html">Tenis X</a>
+                  <span class="dropdown-product-details">1 x R$43.90</span>
+                </div>
+              </div>
+
+              <div class="dropdown-product-item">
+                <span class="dropdown-product-remove">
+                  <i class="icon-cross"></i>
+                </span>
+
+                <a class="dropdown-product-thumb" href="http://localhost:4200/shop-single.html">
+                  <img src="./assets/images/jpg/hat-01-md.jpg" alt="Product">
+                </a>
+
+                <div class="dropdown-product-info">
+                  <a class="dropdown-product-title" href="http://localhost:4200/shop-single.html">Boné</a>
+                  <span class="dropdown-product-details">2 x R$24.89</span>
+                </div>
+              </div>
+
+              <div class="dropdown-product-item">
+                <span class="dropdown-product-remove">
+                  <i class="icon-cross"></i>
+                </span>
+
+                <a class="dropdown-product-thumb" href="http://localhost:4200/shop-single.html">
+                  <img src="./assets/images/jpg/bag-01-md.jpg" alt="Product">
+                </a>
+
+                <div class="dropdown-product-info">
+                  <a class="dropdown-product-title" href="http://localhost:4200/shop-single.html">Bolsa</a>
+                  <span class="dropdown-product-details">1 x R$200.00</span>
+                </div>
+              </div>
+
+              <div class="toolbar-dropdown-group">
+                <div class="column">
+                  <span class="text-lg">Total:</span>
+                </div>
+
+                <div class="column text-right">
+                  <span class="text-lg text-medium">R$289.68&nbsp;</span>
+                </div>
+              </div>
+
+              <div class="toolbar-dropdown-group">
+                <div class="column">
+                  <a class="btn btn-sm btn-block btn-secondary" href="http://localhost:4200/cart.html">Ver carrinho</a>
+                </div>
+
+                <div class="column">
+                  <a class="btn btn-sm btn-block btn-success"
+                    href="http://localhost:4200/checkout-address.html">Finalizar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+<div class="offcanvas-wrapper">
+    <!-- Page Title-->
+    <div class="page-title">
+        <div class="container">
+          <div class="column">
+            <h1>Sobre</h1>
+          </div>
+          <div class="column">
+            <ul class="breadcrumbs">
+              <li>
+                <a href="http://themes.rokaux.com/unishop/v3.2.1/template-1/index.html">Home</a>
+              </li>
+              <li class="separator">&nbsp;</li>
+              <li>Sobre</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Page Content-->
+      <div class="container padding-bottom-2x mb-2">
+        <div class="row align-items-center padding-bottom-2x">
+          <div class="col-md-5"><img class="d-block w-270 m-auto" src="./assets/images/jpg/symbol-cart-xl.jpg"
+              alt="Online Shopping">
+          </div>
+          <div class="col-md-7 text-md-left text-center">
+            <div class="mt-30 hidden-md-up"></div>
+            <h2>Procure, Escolha, Compre Online.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id purus at risus pellentesque faucibus a
+              quis
+              eros. In eu fermentum leo. Integer ut eros lacus. Proin ut accumsan leo. Morbi vitae est eget dolor
+              consequat
+              aliquam eget quis dolor. Mauris rutrum fermentum erat, at euismod lorem pharetra nec. Duis erat lectus,
+              ultrices
+              euismod sagittis at, pharetra eu nisl. Phasellus id ante at velit tincidunt hendrerit. Aenean dolor dolor,
+              tristique nec placerat nec.</p>
+            <a class="text-medium text-decoration-none"
+              href="http://themes.rokaux.com/unishop/v3.2.1/template-1/shop-grid-ls.html">Ver produtos&nbsp;
+              <i class="icon-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        <hr>
+        <div class="row align-items-center padding-top-2x padding-bottom-2x">
+          <div class="col-md-5 order-md-2"><img class="d-block w-270 m-auto" src="./assets/images/jpg/symbol-truck-xl.jpg"
+              alt="Delivery">
+          </div>
+          <div class="col-md-7 order-md-1 text-md-left text-center">
+            <div class="mt-30 hidden-md-up"></div>
+            <h2>Envio para qualquer local do mundo.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id purus at risus pellentesque faucibus a
+              quis
+              eros. In eu fermentum leo. Integer ut eros lacus. Proin ut accumsan leo. Morbi vitae est eget dolor
+              consequat
+              aliquam eget quis dolor. Mauris rutrum fermentum erat, at euismod lorem pharetra nec. Duis erat lectus,
+              ultrices
+              euismod sagittis at, pharetra eu nisl. Phasellus id ante at velit tincidunt hendrerit. Aenean dolor dolor,
+              tristique nec placerat nec.</p>
+            <a class="text-medium text-decoration-none"
+              href="http://themes.rokaux.com/unishop/v3.2.1/template-1/about.html#">Ver detalhes&nbsp;
+              <i class="icon-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        <hr>
+        <div class="row align-items-center padding-top-2x padding-bottom-2x">
+          <div class="col-md-5"><img class="d-block w-270 m-auto" src="./assets/images/jpg/symbol-mobile-xl.jpg"
+              alt="Mobile App">
+          </div>
+          <div class="col-md-7 text-md-left text-center">
+            <div class="mt-30 hidden-md-up"></div>
+            <h2>Nossos aplicativos. Compre de qualquer lugar!</h2>
+            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id purus at risus
+              pellentesque
+              faucibus a quis eros. In eu fermentum leo. Integer ut eros lacus. Proin ut accumsan leo. Morbi vitae est
+              eget
+              dolor consequat aliquam eget quis dolor.</p>
+            <a class="market-button apple-button" href="http://themes.rokaux.com/unishop/v3.2.1/template-1/about.html#">
+              <span class="mb-subtitle">Baixe na</span>
+              <span class="mb-title">App Store</span>
+            </a>
+            <a class="market-button google-button" href="http://themes.rokaux.com/unishop/v3.2.1/template-1/about.html#">
+              <span class="mb-subtitle">Baixe na</span>
+              <span class="mb-title">Google Play</span>
+            </a>
+  
+          </div>
+        </div>
+        <hr>
+        <div class="row align-items-center padding-top-2x padding-bottom-2x">
+          <div class="col-md-5 order-md-2"><img class="d-block w-270 m-auto" src="./assets/images/jpg/symbol-shop-xl.jpg"
+              alt="Delivery">
+          </div>
+          <div class="col-md-7 order-md-1 text-md-left text-center">
+            <div class="mt-30 hidden-md-up"></div>
+            <h2>Vá até uma de nossas lojas</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id purus at risus pellentesque faucibus a
+              quis
+              eros. In eu fermentum leo. Integer ut eros lacus. Proin ut accumsan leo. Morbi vitae est eget dolor
+              consequat
+              aliquam eget quis dolor. Mauris rutrum fermentum erat, at euismod lorem pharetra nec. Duis erat lectus,
+              ultrices
+              euismod sagittis at, pharetra eu nisl. Phasellus id ante at velit tincidunt hendrerit. Aenean dolor dolor,
+              tristique nec placerat nec.</p><a class="text-medium text-decoration-none"
+              href="http://themes.rokaux.com/unishop/v3.2.1/template-1/contacts.html">Ver lojas&nbsp;<i
+                class="icon-arrow-right"></i></a>
+          </div>
+        </div>
+        <hr>
+  
+      </div>
+</div>
+<!-- Back To Top Button-->
+<a class="scroll-to-top-btn" href="http://localhost:4200/home-dark-header.html#">
+    <i class="icon-arrow-up"></i>
+  </a>  
+
+<!-- <router-outlet></router-outlet> -->
+
+<!-- Site Footer-->
+<footer class="site-footer">
+    <div class="container">
+      <div class="row">
+
+        <!-- Contact Info-->
+        <div class="col-lg-3 col-md-6">
+          <section class="widget widget-light-skin">
+            <h3 class="widget-title">Entre em contato conosco</h3>
+            <p class="text-white">Telefone: 0800 0001-0001</p>
+            <ul class="list-unstyled text-sm text-white">
+              <li><span class="opacity-50">Segunda-Sexta:</span>9h - 20h</li>
+              <li><span class="opacity-50">Sabado-Domingo:</span>10h - 18h</li>
+            </ul>
+            <p>
+              <a class="navi-link-light" href="#">suporte@angular.com</a>
+            </p>
+            <a class="social-button shape-circle sb-facebook sb-light-skin"
+              href="http://localhost:4200/home-dark-header.html#">
+              <i class="socicon-facebook"></i>
+            </a>
+            <a class="social-button shape-circle sb-twitter sb-light-skin"
+              href="http://localhost:4200/home-dark-header.html#">
+              <i class="socicon-twitter"></i>
+            </a>
+            <a class="social-button shape-circle sb-instagram sb-light-skin"
+              href="http://localhost:4200/home-dark-header.html#">
+              <i class="socicon-instagram"></i>
+            </a>
+            <a class="social-button shape-circle sb-google-plus sb-light-skin"
+              href="http://localhost:4200/home-dark-header.html#">
+              <i class="socicon-googleplus"></i>
+            </a>
+          </section>
+        </div>
+
+        <!-- Mobile App Buttons-->
+        <div class="col-lg-3 col-md-6">
+          <section class="widget widget-light-skin">
+            <h3 class="widget-title">Nossos Apps</h3>
+            <a class="market-button apple-button mb-light-skin" href="#">
+              <span class="mb-subtitle">Baixe na</span>
+              <span class="mb-title">App Store</span>
+            </a>
+            <a class="market-button google-button mb-light-skin" href="#">
+              <span class="mb-subtitle">Baixe na</span>
+              <span class="mb-title">Google Play</span>
+            </a>
+          </section>
+        </div>
+
+        <!-- About Us-->
+        <div class="col-lg-3 col-md-6">
+          <section class="widget widget-links widget-light-skin">
+            <h3 class="widget-title">Sobre</h3>
+            <ul>
+              <li>
+                <a href="http://localhost:4200/about">Sobre</a>
+              </li>
+            </ul>
+          </section>
+        </div>
+
+        <!-- Account / Orders Info-->
+        <div class="col-lg-3 col-md-6">
+          <section class="widget widget-links widget-light-skin">
+            <h3 class="widget-title">Conta &amp; Pedidos</h3>
+            <ul>
+              <li>
+                <a href="http://localhost:4200/my-account">Sua conta</a>
+              </li>
+              <li>
+                <a href="http://localhost:4200/my-account">Pedidos</a>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+      <hr class="hr-light mt-2 margin-bottom-2x">
+
+      <!-- Copyright-->
+      <p class="footer-copyright">
+        © All rights reserved. Coded with &nbsp;
+        <i class="icon-heart text-danger"></i>
+        <a href="http://localhost:4200/" target="_blank"> &nbsp;by Luciano ;D</a>
+      </p>
+    </div>
+  </footer>
